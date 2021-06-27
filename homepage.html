@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="enhance.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <a href="homepage.html">Home</a>
+  <a href="loginpage.php">Login</a>
+  <a href="articles.php">News</a>
+  <a href="about.html">About Us</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg"
+  style="width:100%">
+  <img class="mySlides" src="https://www.vmcdn.ca/f/files/shared/miscellaneous-stock-images/covid19_2000x1333.jpg;w=960"
+  style="width:100%">
+  <img class="mySlides" src="http://www.leftcom.org/files/2010-06-27-together-we-will-win.jpg"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<div class="desc">
+  <h1 class="h2"><b>THE COVIDROID</b></h1></br>
+  <h3 class="p1"><i>We take care</i></h3>
+</br>
+</br>
+  <p class="p2">COVID-19 as we all know how deadly this virus is and the impact of this virus on the whole world. The entire world is affected by this virus and struggling a lot in every aspect in fighting with this virus. 
+    Our Project titled Covi-Droid is a website that is aimed to help the people all over the world in introspecting themselves that whether they have been infected by this deadly virus which is COVID-19 or if they have any symptoms which may indicate that they may have a greater chance of getting infected by this virus if they will not take proper care and precautions. In addition to this our website will also show some of the relevant articles from the trusted sources so that people can get a better idea regarding the current situation. .</p>
+  </div>
+
+<!-- Band Members -->
+<div class="info">
+  <div class="india">
+    <h3>India</h3>
+    <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/COVID-19_Outbreak_Cases_in_India.svg/1200px-COVID-19_Outbreak_Cases_in_India.svg.png" width="800" height="500" class="image">
+    <div class="overlay">
+      <div class="text"><a href="https://www.covid19india.org/"> Click to View C0VID-19 Stats of India </a></div>
+    </div>
+    </div>
+  </br>
+  </div>
+  <div class="world">
+    <h3>World</h3>
+    <div class="container1">
+    <img src="https://www.cdc.gov/coronavirus/2019-ncov/images/outbreak-coronavirus-world.png" alt="Random Name" width="500" height="500" class="image1">
+    <div class="overlay1">
+      <div class="text1"><a href="https://www.worldcoronastats.com/"> Click to View C0VID-19 Stats of World </a></div>
+    </div>
+    </div>
+  </div>
+  <div class="more">
+    <h3>COVID news</h3>
+    <img src="OIP.jpg" alt="Random Name" usemap="#workmap" width="150" height="500">
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" href="https://news.google.com/covid19/map?hl=en-IN&gl=IN&ceid=IN%3Aen">
+    </map>
+  </div>
+</div>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
+
+    
+

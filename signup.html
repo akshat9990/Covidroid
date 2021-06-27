@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Login form Design</title>
+	<link rel="stylesheet" type="text/css" href="styleup.css">
+<body>
+	<div class="signupbox">
+	<img src="user.png" class="apple">
+	<h1>Sign up Here</h1>
+	<form action="signup.php" method="POST">
+		<p>Username</p>
+		<input type="text" name="user" required placeholder="Enter Username">
+		<p>Email address</p>
+		<input type="email" name="email"required placeholder="Enter Email address">
+		<p>Phone number</p>
+		<input type="number" name="phonenumber" required placeholder="Enter Phone Number">
+		<p>Date of birth</p>
+		<input type="date" name="dob" required placeholder="Enter DOB">
+		 <p>Please select your gender:</p>
+		 <select id="gender" name="gender" required>
+		  <option value="Male">Male</option>
+		  <option value="Female">Female</option>
+		  <option value="Other">Other</option>
+		 </select></br>
+		</br>
+		<p>Password</p>
+		<input type="password" name="pass" required placeholder="Enter Password">
+		<p>Retype your Password</p>
+		<input type="password" name="pass" required placeholder="Enter Password">
+		<input type="submit" name="" value="Create Account">
+		 
+	</form>
+
+	</div>
+</body>
+</head>
+</html>

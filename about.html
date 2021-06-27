@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.navbar {
+  overflow: hidden; 
+  background-color: #333; 
+}
+
+
+.navbar a {
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
+}
+
+.navbar a:hover {
+  background-color: #ddd; 
+  color: black; 
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  height: 80%;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  height: 90%;
+}
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  height: 100%;
+}
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="homepage.html">Home</a>
+    <a href="loginpage.php">Login</a>
+    <a href="articles.php">News</a>
+    <a href="about.html">About Us</a>
+  </nav>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p> The Covidroid, an initiative by Mr Achintya Kumar Satyayan & Mr Akshat Gupta aims to help millions of people worldwide. We started with the same motto of changing the lives of millions of people around the globe.</p>
+  <p> Our initiative has been very helpful to people in fighting with the COVID-19 Virus. We are providing all our facilities and features free of cost to everyone in need. Our initiative aims to provide people the recent updates regarding coronavirus. We have some articles on health issues on our website which users can have a look and improve their lifestyle. We provide the option of diagnosing to the people who feel they are having some symtomps and we provide them with accurate results.</p>
+  <p> It's been a wonderful journey altogether. We thought of making a small contribution to the global community in fighting with this virus and that is the thing that drove us in taking such inititaive and making Covidroid. Although , We have a long way to go but if you guys wiil keep us supporting , then definitely our this initiative and further initiatives will touch greater heights.
+  <p> Thank you for all your love and support. </p> 
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card1">
+      <img src="achintyabom.jpeg" style="width:90% ; height:100%">
+      <div class="container">
+        <h2>Achintya Kumar Satyayan</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Mr Achintya Kumar Satyayan, the founder of Covidroid which is changing the lives of millions of people worldwide.</p>
+        <p>aksatyayan@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card2">
+      <img src="http://4.bp.blogspot.com/-oUlAjj8v1Us/TVY-xzG8pvI/AAAAAAAAAIQ/iX0pfLZH5xI/s1600/handshake.gif" alt="Mike" style="width:110%">
+      <div class="container">
+      </br>
+    </br>
+</br>
+</br>
+        <h2> The Covidroid Team</h2>
+        <p class="title"> The Unbreakable Bond of Trust</p>
+        <p>We both team members have made huge contribution to make this initiative successful. It's the result of our hark work and dedication that our initiative is touching such great heights.</p>
+        <p></p>
+        <div>
+            </div>
+            <div>
+                </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card3">
+      <img src="akshat.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Akshat Gupta</h2>
+        <p class="title">MD & Founder</p>
+        <p>Mr Akshat Gupta, the fouder & managing director of Covidroid has done a tremendous job in making this initiative successful.</p>
+        <p>akshatgpt136@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
